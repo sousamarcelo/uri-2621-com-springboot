@@ -14,7 +14,7 @@ public class ProductMinDTO {
 	}
 	
 	public ProductMinDTO(ProductMinProjetion projection) {
-		name = projection.geName();
+		name = projection.getName();
 	}
 
 	public String getName() {
